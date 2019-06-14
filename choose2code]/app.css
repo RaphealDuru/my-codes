@@ -1,0 +1,70 @@
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(emeka.JPG);
+    height: 150vh;
+    background-size: contain;
+    background-position: center;
+    backface-visibility: hidden;
+}
+
+.main-nav {
+    float: right;
+    list-style: none;
+    margin-top: 50pix;
+}
+
+.main-nav li {
+    display: inline;
+}
+
+.main-nav li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: "roboto", sans-serif;
+    font-size: 15px;
+}
+
+.main-nav li.active a {
+    border: 1px;
+}
+
+.main-nav li a:hover {
+    border: 0.5px solid white;
+}
+
+.logo img {
+    width: 200px;
+    height: auto;
+    float: right;
+}
+
+body {
+    font-family: monospace;
+}
+
+.row {
+    max-width: 1200px;
+    margin: auto;
+}
+
+h1 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 275px;
+}
+
+.info {
+    color: aliceblue;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: left;
+}
+
+.Favorite {
+    color: white;
+    font-size: 25px;
+    font-family: monospace;
+    text-align: left;
+}
